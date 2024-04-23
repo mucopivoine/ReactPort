@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { FaFacebook, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone } from 'react-icons/fa'
 function Footer() {
   return (
@@ -28,9 +29,9 @@ function Footer() {
                <h4 className='text-white font-bold text-xl '>About the project</h4>
                <p className='text-white'>This is my react portfolio which I worked on after knowing basic properties and terms used in react . I enjoy discussing with how to work on it and how to develop new projects.</p>
                <div className='social flex mt-4 gap-3'>
-               <FaFacebook size={30} className='text-white mr-2'/>
-               <FaInstagram size={30} className='text-white mr-2'/>
-               <FaLinkedin size={30} className='text-white mr-2'/>
+              <Link to="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><FaFacebook size={30} className='text-white mr-2'/></Link> 
+               <Link to="https://www.instagram.com/"><FaInstagram size={30} className='text-white mr-2'/></Link>
+               <Link to="https://www.linkedin.com/learning"><FaLinkedin size={30} className='text-white mr-2'/></Link>
                </div>
              </div>
             </div> 
