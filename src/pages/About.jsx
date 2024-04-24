@@ -7,7 +7,7 @@ import treebk from "../assets/treebk-removebg-preview.png";
 function About() {
   return (
     <div>
-      <Header/>
+      
       <section className='lg:w-full mx-auto bg-black'>
         <div className='soccer'>
           <img src={Inbig} className='bg-cover w-full h-[60vh] object-cover'></img>
@@ -47,34 +47,9 @@ function About() {
 
         </div>
       </section>
-  
 
 
-    
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <Footer/>
+     
        
     </div>
   )

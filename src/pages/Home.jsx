@@ -3,12 +3,15 @@ import Inbig from '../assets/Inbig.webp'
 import { Link } from 'react-router-dom'
 import '..//App.css'
 import Header from './Header'
+import About from './About'
+import Project from './Project'
+import Contact from './Contact'
 import Footer from '../components/Footer'
 
 function Home() {
   return (
     <div>
-      <Header/>
+      
       <div className='h-full w-full'>
       <div className='mask'> 
         <img src={Inbig} className='bg-cover w-full h-[100vh]  object-cover'></img>
@@ -22,7 +25,7 @@ function Home() {
       </div>
       </div>
       </div>
-      <Footer/>
+    
     </div>
   )
 }

@@ -8,7 +8,7 @@ function Footer() {
            <div className='footercontainer max-w-[1140px]  grid lg:grid-cols-2 sm:grid-cols-1 p-7'>
             <div className='left h-full max-w-[100%] flex flex-col p-5 '>
                 <div className='location flex mb-3'>
-                    <FaHome size={20} className='text-white mr-4'/>
+                  <Link to="https://maps.app.goo.gl/gntXZ5rwSYUxuCLXA"> <FaHome size={20} className='text-white mr-4'/></Link>
                     <div>
                       <p className='text-white'>123 Housing Society</p>
                       <p className='text-white'>Kicukiro</p>
@@ -16,12 +16,12 @@ function Footer() {
                 </div>
                 <div className='phone flex gap-5'>
                 
-                  <FaPhone size={20} className='text-white'/>
+                 <FaPhone size={20} className='text-white'/>
                   <h4 className='text-white font-bold'>0788404142</h4>
                 </div>
                 <div className='email flex gap-5'>
                  
-                  <FaMailBulk size={20} className='text-white'/>
+                  <Link to="https://mail.google.com/"><FaMailBulk size={20} className='text-white'/></Link>
                   <h4 className='text-white font-bold'>info@gmail.com</h4>
                 </div>
              </div>

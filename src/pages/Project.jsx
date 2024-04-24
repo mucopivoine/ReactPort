@@ -10,7 +10,7 @@ import '..//App.css';
 function Project() {
   return (
     <div>
-      <Header/>
+    
       <section className="lg:w-full mx-auto bg-black ">
         <div className='soccer'>
           <img src={Inbig} className='bg-cover w-full h-[60vh] object-cover'></img>
@@ -81,7 +81,6 @@ function Project() {
     </div>
     </div>
 </section>
-<Footer/>
     </div>
   )
 }

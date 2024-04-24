@@ -7,14 +7,14 @@ import Heroimg1 from '../components/Heroimg1'
 function Contact() {
   return (
     <><div>
-      <Header />
+      
       <section className="lg:w-full mx-auto bg-black">
         <div className='soccer'>
           <img src={Inbig} className='bg-cover w-full h-[60vh] object-cover'></img>
         </div>
         <div className='absolute lg:top-[40%] lg:right-[30%]  lg:left-[30%] justify-center text-center items-center'>
-          <h1 className='text-white text-4xl '>My projects</h1>
-          <p className='text-white text-xl text-center justify-center items-center'>Here are some of the projects that I've been working on recently</p>
+          <h1 className='text-white text-4xl '>Contact Me</h1>
+          <p className='text-white text-xl text-center justify-center items-center'>Lets get in touch by logging in your account and send message if any.</p>
         </div>
         <div className='bg-black flex flex-col py-10 px-4 mx-auto max-w-[600px]'>
           <label className='text-white mb-3'>Your name</label>
@@ -32,7 +32,9 @@ function Contact() {
 
         </div>
       </section>
-    </div><Footer /></>
+    </div>
+  
+    </>
 
   )
 }
