@@ -16,7 +16,7 @@ function Header() {
         <nav aria-label="Global">
           <ul className="flex items-center gap-6  text-xl">
             <li>
-              <Link className="text-white transition hover:text-gray-200/75" to="/"> Home </Link>
+              <Link className="text-white transition hover:text-gray-200/75" to="/home"> Home </Link>
             </li>
 
             <li>
