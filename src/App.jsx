@@ -7,6 +7,7 @@ import Project from './pages/Project'
 import Home from './pages/Home'
 import Layout from './layout/Layout'
 import Footer from './components/Footer'
+import Homepage from './pages/Homepage'
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Header/>
         <Routes>
           <Route path="/" element={<Layout/>}>
+          <Route path="/homepage" element={<Homepage/>}/>
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/project" element={<Project/>} />

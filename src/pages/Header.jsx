@@ -9,7 +9,7 @@ function Header() {
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div className="flex h-16 items-center justify-between  z-10 bg-black w-full top-0">
       <div className="md:flex md:items-center md:gap-12">
-        <Link className="block  font-bold" to="/">
+        <Link className="block  font-bold" to="/homepage">
            <p className='text-3xl'>Portfolio.</p></Link>
 </div>
       <div className="hidden md:block ">
