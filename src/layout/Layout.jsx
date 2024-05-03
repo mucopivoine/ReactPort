@@ -9,7 +9,7 @@ function Layout() {
   return (
     <div>
       
-      <Homepage />
+      {/* <Homepage /> */}
        <Outlet/>
     </div>
   );
